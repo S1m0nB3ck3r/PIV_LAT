@@ -1,0 +1,28 @@
+set_location_assignment PIN_R8 			-to i_50M
+set_location_assignment PIN_F13 			-to i_RX
+set_location_assignment PIN_T15 			-to o_TX
+set_location_assignment PIN_T13 			-to i_RTS
+
+set_location_assignment PIN_B1 			-to o_FL1_LED
+set_location_assignment PIN_L3 			-to o_FL2_LED
+set_location_assignment PIN_B13 			-to o_QS1_LED
+set_location_assignment PIN_A11 			-to o_QS2_LED
+set_location_assignment PIN_D1			-to o_LED_PANNEL_LED
+set_location_assignment PIN_F3		 	-to o_TRIG_CAM1_LED
+set_location_assignment PIN_A13		 	-to o_state[0]
+set_location_assignment PIN_A15		 	-to o_state[1]
+
+set_location_assignment PIN_E7 			-to o_FL1
+set_location_assignment PIN_E8 			-to o_FL2
+set_location_assignment PIN_F9 			-to o_QS1
+set_location_assignment PIN_C9 			-to o_QS2
+
+set_location_assignment PIN_J13		 	-to o_TRIG_CAM1
+set_location_assignment PIN_M10			-to o_LED_PANNEL
+set_location_assignment PIN_L14		 	-to o_TRIG_MOT
+
+
+
+
+
+

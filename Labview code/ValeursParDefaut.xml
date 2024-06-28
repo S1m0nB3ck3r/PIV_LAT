@@ -1,0 +1,79 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>23.1f276</Version>
+<Cluster>
+<Name>defParametersIN</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>customParam</Name>
+<NumElts>6</NumElts>
+<U32>
+<Name>CamDelayToOpen(µs)</Name>
+<Val>80</Val>
+</U32>
+<U32>
+<Name>FLWidth(µs)</Name>
+<Val>1000</Val>
+</U32>
+<U32>
+<Name>QSWidth(µs)</Name>
+<Val>1000</Val>
+</U32>
+<U32>
+<Name>DelayFL_QS (µs)</Name>
+<Val>180</Val>
+</U32>
+<U32>
+<Name>CamDelayToClose(µs)</Name>
+<Val>80</Val>
+</U32>
+<U32>
+<Name>CamPivExposure(µs)</Name>
+<Val>100</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Configuration</Name>
+<NumElts>9</NumElts>
+<U16>
+<Name>Nombre de période</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Fréquence </Name>
+<Val>10</Val>
+</U16>
+<U16>
+<Name>Nb pulse préchauffe laser</Name>
+<Val>0</Val>
+</U16>
+<U8>
+<Name>skip_frame_PIV</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>skip_frame_LAT</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>Time beetwen pulses (µs)</Name>
+<Val>10000</Val>
+</U32>
+<U32>
+<Name>Temps LAT (µs)</Name>
+<Val>15000</Val>
+</U32>
+<U32>
+<Name>Temps expo LAT (µs)</Name>
+<Val>10000</Val>
+</U32>
+<EB>
+<Name>action</Name>
+<Choice>PIV</Choice>
+<Choice>PIV + LAT</Choice>
+<Choice>LAT</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+</Cluster>
+</LVData>

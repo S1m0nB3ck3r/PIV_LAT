@@ -1,0 +1,15 @@
+set_location_assignment PIN_R8 -to i_50M
+set_location_assignment PIN_E10 -to i_RX
+set_location_assignment PIN_D9 -to o_TX
+set_location_assignment PIN_B11 -to i_RTS
+
+set_location_assignment PIN_A15 -to o_segments[0]
+set_location_assignment PIN_A13 -to o_segments[1]
+set_location_assignment PIN_B13 -to o_segments[2]
+set_location_assignment PIN_A11 -to o_segments[3]
+set_location_assignment PIN_D1 -to o_segments[4]
+set_location_assignment PIN_F3 -to o_segments[5]
+set_location_assignment PIN_B1 -to o_segments[6]
+
+
+set_location_assignment PIN_L3 -to o_led_RW
